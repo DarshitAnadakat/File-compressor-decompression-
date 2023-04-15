@@ -40,6 +40,7 @@ public class FileCompressorController {
         fileChooser.setTitle("Save File");
         fileChooser.setInitialDirectory(new File(System.getProperty("user.home")+ "/Desktop"));
         fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("Text File","*.txt"), new FileChooser.ExtensionFilter("All Text Files","*.txt","*.md"));
+        fileChooser.setInitialFileName("default.txt");
         File selectedFile = fileChooser.showSaveDialog(new Stage());
         if(selectedFile != null){
             System.out.println(selectedFile.getPath());

@@ -58,8 +58,6 @@ public class CHuffmanDecoder implements huffmanSignature{
 		}
 		
 	public boolean decodeFile() throws Exception{
-		
-		
 		if(fileName.length() == 0) return false;
 		
 		for(int i=0;i<MAXCHARS;i++) hCodes[i] = "";
