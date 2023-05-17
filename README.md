@@ -19,7 +19,7 @@ For the user interface I used JavaFX which is a set of graphics and media packag
 
 # Usage
 To run this project make sure you have the Java installed on your device then follow the steps given below:
-- Clone or download this repository ``` https://github.com/rohit4242/FileCompressor ```
+- Clone or download this repository ```(https://github.com/DarshitAnadakat/File-compressor-decompression-.git)'''
 - Create new javaFX project in your IDE.
 - Copy ```src``` folder to your project then run the file ``` Main.java ```
 
